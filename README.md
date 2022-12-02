@@ -1,13 +1,8 @@
-
 ## API Reference
-
-#### Get all data
 
 ```
   GET /api/cars
 ```
-
-#### Get data by id
 
 ```
   GET /api/cars/:id
@@ -16,9 +11,6 @@
 | Parameter | Type     |
 | :-------- | :------- |
 | `id`      | `string` |
-
-
-#### Add data
 
 ```
   POST /api/cars
@@ -29,8 +21,6 @@
 | `brand`      | `string` |
 | `model`      | `string` |
 | `year`      | `integer` |
-
-#### Update data
 
 ```
   PUT /api/cars/:id
@@ -44,8 +34,6 @@
 | `model`      | `string` |
 | `year`      | `integer` |
 
-#### Delete data
-
 ```
   DELETE /api/cars/:id
 ```
@@ -53,5 +41,3 @@
 | Parameter | Type     |
 | :-------- | :------- |
 | `id`      | `string` |
-
-
